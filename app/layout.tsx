@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("http://localhost:3000"),
   title: 'bookmykey.in — Find Your Perfect Home Across India',
   description:
     'Search from thousands of verified rental and sale properties across India. No brokerage, no hassle — just your next home. Post your property for free.',
